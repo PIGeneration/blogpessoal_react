@@ -47,10 +47,6 @@ function DeletarTema() {
         navigate('/temas')
     }
 
-    /**
-     * Criamos a função deletarTema, responsável por deletar 
-     * um tema da aplicação (DELETE).
-     */
     async function deletarTema() {
         setIsLoading(true)
 
